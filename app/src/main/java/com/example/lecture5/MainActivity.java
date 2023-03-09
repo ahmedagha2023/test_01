@@ -42,7 +42,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
     }
 
-    // Save to Android Studio
+    
+
+    //Ahmad
+
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
 
