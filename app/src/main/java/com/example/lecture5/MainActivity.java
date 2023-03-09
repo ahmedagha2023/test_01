@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
     }
 
+    // Save to Android Studio
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
 
@@ -60,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             } else if (z > x && z > y) {
                 textAxis.setText("Z");
             }
+
+
 
 ////////////////////////////////////////////////////////////////////
             if (x < 100 || y < 100 || z < 100 ){
